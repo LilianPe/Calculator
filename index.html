@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style/Sheet.css">
+</head>
+<body>
+    <div class="page">
+        <div class="calculator">
+            <div class="interface" id="interface">
+                <p class="calculs"></p>
+            </div>
+            <div class="btns">
+                <button class="left" onclick="addToInterface(1)">1</button>
+                <button class="left" onclick="addToInterface(2)">2</button>
+                <button class="left" onclick="addToInterface(3)">3</button>
+                <button class="right" onclick="addToInterface('+')">+</button>
+                <button class="left" onclick="addToInterface(4)">4</button>
+                <button class="left" onclick="addToInterface(5)">5</button>
+                <button class="left" onclick="addToInterface(6)">6</button>
+                <button class="right" onclick="addToInterface('-')">-</button>
+                <button class="left" onclick="addToInterface(7)">7</button>
+                <button class="left" onclick="addToInterface(8)">8</button>
+                <button class="left" onclick="addToInterface(9)">9</button>
+                <button class="right" onclick="addToInterface('*')">*</button>
+                <button class="left" onclick="addToInterface(0)">0</button>
+                <button class="left" onclick="addToInterface('.')">.</button>
+                <button class="left" onclick="exe()">=</button>
+                <button class="right" onclick="addToInterface('/')">/</button>
+                <button class="left" onclick="clearInterface()">Clear</button>
+                <button class="left" onclick="supp()">Supp</button>
+            </div>
+        </div>
+    </div>
+    <script src="JS/app.js"></script>
+</body>
+</html>
