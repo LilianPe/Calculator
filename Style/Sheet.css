@@ -58,7 +58,7 @@ body{
     border-radius: 90px;
     font-size: 180px;
     align-items: center;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .calculs{
